@@ -29,10 +29,15 @@
 {
     [super viewDidLoad];
     self.searchDisplayController.delegate = self;
-    self.searchDisplayController.searchResultsDataSource = self;
+    //self.searchDisplayController.searchResultsDataSource = self;
      // UIBarButtonItem *send = [[UIBarButtonItem alloc]initWithTitle:@"Send" style:UIBarButtonItemStyleDone target:self action:@selector(sendInvitation)];
    // self.navigationItem.rightBarButtonItem = send;
     // Do any additional setup after loading the view.
+}
+
+
+-(NSInteger)tableView:(UITableView*)numberofRowsInSection{
+   return  [searchData count];
 }
 
 -(IBAction)sendInvitation:(id)sender{

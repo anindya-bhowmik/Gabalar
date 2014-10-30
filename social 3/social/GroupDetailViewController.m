@@ -154,7 +154,7 @@
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
     
-    [query orderByDescending:@"updatedAt"];
+    [query orderByAscending:@"updatedAt"];
     
     return query;
 }

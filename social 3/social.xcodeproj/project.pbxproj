@@ -46,6 +46,9 @@
 		0758A9ED19583A3A007DB5A7 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0758A9EB19583A3A007DB5A7 /* unchecked.png */; };
 		0758A9F019583A97007DB5A7 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758A9EF19583A97007DB5A7 /* RadioButton.m */; };
 		0767DC1E19743617006527EA /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767DC1D19743617006527EA /* Utility.m */; };
+		079468CC1A02A9E0001051F7 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 079468C71A02A9E0001051F7 /* UIImage+Alpha.m */; };
+		079468CD1A02A9E0001051F7 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 079468C91A02A9E0001051F7 /* UIImage+Resize.m */; };
+		079468CE1A02A9E0001051F7 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 079468CB1A02A9E0001051F7 /* UIImage+RoundedCorner.m */; };
 		079E06B4197ED6670072A35B /* GroupMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079E06B3197ED6670072A35B /* GroupMemberViewController.m */; };
 		079E06B7197EDFDE0072A35B /* AddMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079E06B6197EDFDE0072A35B /* AddMemberViewController.m */; };
 		07A0139219C5EE2C0005E67F /* pi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A0139019C5EE2C0005E67F /* pi@2x.png */; };
@@ -69,7 +72,7 @@
 		07C78B5B197BCEF000EFE4E8 /* GroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C78B5A197BCEF000EFE4E8 /* GroupDetailViewController.m */; };
 		763AFADA19E5BB3A006D0FA5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763AFAD919E5BB3A006D0FA5 /* Parse.framework */; };
 		763AFADB19E5BBCD006D0FA5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763AFAD919E5BB3A006D0FA5 /* Parse.framework */; };
-		CE38A0021994E82E00594D65 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE38A0011994E82E00594D65 /* default.png */; };
+		CE38A0021994E82E00594D65 /* default_grp.png in Resources */ = {isa = PBXBuildFile; fileRef = CE38A0011994E82E00594D65 /* default_grp.png */; };
 		CE829B87197F769A004AEB0A /* InvitationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE829B86197F769A004AEB0A /* InvitationViewController.m */; };
 		CE829B8A197FC5E3004AEB0A /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE829B89197FC5E3004AEB0A /* PostViewController.m */; };
 		CEB7FBEC19768CB80011A190 /* GroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7FBEA19768CB80011A190 /* GroupViewCell.m */; };
@@ -153,6 +156,12 @@
 		0767DC1B19742D2F006527EA /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		0767DC1C19743617006527EA /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		0767DC1D19743617006527EA /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		079468C61A02A9E0001051F7 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		079468C71A02A9E0001051F7 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		079468C81A02A9E0001051F7 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		079468C91A02A9E0001051F7 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		079468CA1A02A9E0001051F7 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		079468CB1A02A9E0001051F7 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		079E06B2197ED6670072A35B /* GroupMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupMemberViewController.h; sourceTree = "<group>"; };
 		079E06B3197ED6670072A35B /* GroupMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupMemberViewController.m; sourceTree = "<group>"; };
 		079E06B5197EDFDE0072A35B /* AddMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMemberViewController.h; sourceTree = "<group>"; };
@@ -190,7 +199,7 @@
 		07C78B59197BCEF000EFE4E8 /* GroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupDetailViewController.h; sourceTree = "<group>"; };
 		07C78B5A197BCEF000EFE4E8 /* GroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupDetailViewController.m; sourceTree = "<group>"; };
 		763AFAD919E5BB3A006D0FA5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		CE38A0011994E82E00594D65 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		CE38A0011994E82E00594D65 /* default_grp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_grp.png; sourceTree = "<group>"; };
 		CE829B85197F769A004AEB0A /* InvitationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvitationViewController.h; sourceTree = "<group>"; };
 		CE829B86197F769A004AEB0A /* InvitationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvitationViewController.m; sourceTree = "<group>"; };
 		CE829B88197FC5E3004AEB0A /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
@@ -302,6 +311,7 @@
 		073976931954C76C00B2B7F8 /* social */ = {
 			isa = PBXGroup;
 			children = (
+				079468C51A02A9E0001051F7 /* UIImage-categories */,
 				079E06B5197EDFDE0072A35B /* AddMemberViewController.h */,
 				079E06B6197EDFDE0072A35B /* AddMemberViewController.m */,
 				07A788A319782EA00087EFE2 /* Model */,
@@ -413,7 +423,7 @@
 				D7656ED019A13F9100FE4B6C /* photos.png */,
 				D7656ED119A13F9100FE4B6C /* join.png */,
 				D7656ED219A13F9100FE4B6C /* members.png */,
-				CE38A0011994E82E00594D65 /* default.png */,
+				CE38A0011994E82E00594D65 /* default_grp.png */,
 				07A788AA197843C40087EFE2 /* search.png */,
 				0758A9EA19583A3A007DB5A7 /* checked.png */,
 				0758A9EB19583A3A007DB5A7 /* unchecked.png */,
@@ -423,6 +433,19 @@
 			);
 			name = images;
 			path = JTRevealSidebarV2/images;
+			sourceTree = "<group>";
+		};
+		079468C51A02A9E0001051F7 /* UIImage-categories */ = {
+			isa = PBXGroup;
+			children = (
+				079468C61A02A9E0001051F7 /* UIImage+Alpha.h */,
+				079468C71A02A9E0001051F7 /* UIImage+Alpha.m */,
+				079468C81A02A9E0001051F7 /* UIImage+Resize.h */,
+				079468C91A02A9E0001051F7 /* UIImage+Resize.m */,
+				079468CA1A02A9E0001051F7 /* UIImage+RoundedCorner.h */,
+				079468CB1A02A9E0001051F7 /* UIImage+RoundedCorner.m */,
+			);
+			path = "UIImage-categories";
 			sourceTree = "<group>";
 		};
 		07A788A319782EA00087EFE2 /* Model */ = {
@@ -538,7 +561,7 @@
 				D7656ECE19A1053700FE4B6C /* mail.png in Resources */,
 				D7656ED619A13F9100FE4B6C /* members.png in Resources */,
 				D7656ECA19A1046600FE4B6C /* user_group.png in Resources */,
-				CE38A0021994E82E00594D65 /* default.png in Resources */,
+				CE38A0021994E82E00594D65 /* default_grp.png in Resources */,
 				D7656EC519A0FAD400FE4B6C /* signup.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,6 +590,7 @@
 				07C78B5B197BCEF000EFE4E8 /* GroupDetailViewController.m in Sources */,
 				CE829B8A197FC5E3004AEB0A /* PostViewController.m in Sources */,
 				07C78B58197BAB4900EFE4E8 /* CreateGroupViewController.m in Sources */,
+				079468CC1A02A9E0001051F7 /* UIImage+Alpha.m in Sources */,
 				07A788A219782E370087EFE2 /* MoreViewController.m in Sources */,
 				079E06B7197EDFDE0072A35B /* AddMemberViewController.m in Sources */,
 				073976E51957F18200B2B7F8 /* MainViewController.m in Sources */,
@@ -575,12 +599,14 @@
 				CEB7FBEC19768CB80011A190 /* GroupViewCell.m in Sources */,
 				0758A9F019583A97007DB5A7 /* RadioButton.m in Sources */,
 				074526D7197AE12A00B3BDEF /* BaseViewController.m in Sources */,
+				079468CD1A02A9E0001051F7 /* UIImage+Resize.m in Sources */,
 				CE829B87197F769A004AEB0A /* InvitationViewController.m in Sources */,
 				073976EB1957F35A00B2B7F8 /* PublicGroupViewController.m in Sources */,
 				07A788A819782EA00087EFE2 /* Group.m in Sources */,
 				07AB56A419C4CA4D0081B999 /* GroupCell.m in Sources */,
 				0739769A1954C76C00B2B7F8 /* main.m in Sources */,
 				07AA824119963E5D00A3EBD1 /* ImageViewController.m in Sources */,
+				079468CE1A02A9E0001051F7 /* UIImage+RoundedCorner.m in Sources */,
 				07C0ED3C197D89C50073ECAE /* GroupSettingViewController.m in Sources */,
 				07AA823B1995E8F600A3EBD1 /* GroupPhotoViewController.m in Sources */,
 				07AA823E1995EA3600A3EBD1 /* GroupImageCell.m in Sources */,

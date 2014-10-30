@@ -134,7 +134,8 @@
     
    PFFile *thumbnail = group[@"groupPic"];
     cell.groupPic.file = thumbnail;
-    [cell.groupPic loadInBackground];
+     if(![cell.groupPic.file isDataAvailable])
+       [cell.groupPic loadInBackground];
 //    [thumbnail getDataInBackgroundWithBlock:^(NSData *data, NSError *error){
 //        
 //        NSData *imageFile = [thumbnail getData];

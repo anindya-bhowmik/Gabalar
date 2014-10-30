@@ -170,9 +170,11 @@
         cell.name.textColor = [UIColor blackColor];
         cell.name.numberOfLines = 3;
         cell.name.text = [object objectForKey:@"groupName"];
-        PFFile *thumbnail = object[@"groupPic"];
+        PFFile *thumbnail = object[@"groupPicThumb"];
         cell.groupPic.file = thumbnail;
-        [cell.groupPic loadInBackground];
+      //  if(cell.groupPic.file == nil)
+        //if(![cell.groupPic.file isDataAvailable])
+            [cell.groupPic loadInBackground];
     }
     else{
         PFObject *obj = [searchData objectAtIndex:indexPath.row];
@@ -288,6 +290,7 @@
 }
 
 -(void)searchGroup:(NSString *)groupName{
+    
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"groupNameLower CONTAINS[c] %@",[groupName lowercaseString]];
     NSPredicate *privatePredicate = [NSPredicate predicateWithFormat:@"isPublic = TRUE"];
     //NSPredicate *finalPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:[NSArray arrayWithObjects:predicate,privatePredicate, nil]];
