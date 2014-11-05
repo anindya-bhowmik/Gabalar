@@ -25,7 +25,8 @@
 }
 
 - (void)viewDidLoad
-{self.navigationController.navigationBar.tintColor = [UIColor darkGrayColor];
+{
+    self.navigationController.navigationBar.tintColor = [UIColor darkGrayColor];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     currentUser = [PFUser currentUser];

@@ -153,18 +153,17 @@
     static NSString *CellIdentifier = @"Cell";
     static NSString *CellIdentifier1 = @"Cell1";
     if(tableView != self.searchDisplayController.searchResultsTableView){
-    cell = (GroupCell*)[self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[GroupCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-    }
-    }
-    else{
-        cell1 = [tableView dequeueReusableCellWithIdentifier:CellIdentifier1];
-        if(cell1 == nil){
-            cell1 = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier1];
+        cell = (GroupCell*)[self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[GroupCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         }
     }
-    
+    else{
+        cell1 = (GroupCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier1];
+        if(cell1 == nil){
+            cell1 = [[GroupCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
+    }
     if(tableView != self.searchDisplayController.searchResultsTableView){
         cell.name.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:17];
         cell.name.textColor = [UIColor blackColor];
@@ -172,31 +171,34 @@
         cell.name.text = [object objectForKey:@"groupName"];
         PFFile *thumbnail = object[@"groupPicThumb"];
         cell.groupPic.file = thumbnail;
-      //  if(cell.groupPic.file == nil)
-        //if(![cell.groupPic.file isDataAvailable])
-            [cell.groupPic loadInBackground];
+        [cell.groupPic loadInBackground];
     }
     else{
         PFObject *obj = [searchData objectAtIndex:indexPath.row];
-         NSString *stri = [obj objectForKey:@"groupName"];
-        cell1.textLabel.text = stri;//[object objectForKey:@"groupName"];
-        return cell1;
+        cell.name.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:17];
+        cell.name.textColor = [UIColor blackColor];
+        cell.name.numberOfLines = 3;
+        cell.name.text = [obj objectForKey:@"groupName"];
+        PFFile *thumbnail = obj[@"groupPicThumb"];
+        cell.groupPic.file = thumbnail;
+        [cell.groupPic loadInBackground];
+        return cell;
     }
    
     return cell;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 77;
-}
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    return 77;
+//}
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     PFObject *groupObject;
     if(tableView != self.searchDisplayController.searchResultsTableView){
-    groupObject = [self.objects   objectAtIndex:indexPath.row];
+        groupObject = [self.objects   objectAtIndex:indexPath.row];
     }
     else{
         groupObject = [searchData objectAtIndex:indexPath.row];

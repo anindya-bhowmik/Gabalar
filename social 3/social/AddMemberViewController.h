@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 @class Group;
-@interface AddMemberViewController : UIViewController<UISearchDisplayDelegate>{
+@interface AddMemberViewController : UITableViewController<UISearchDisplayDelegate,UISearchBarDelegate>{
     NSMutableArray *searchData;
+    IBOutlet UISearchBar *searchUser;
 }
 @property (weak, nonatomic) IBOutlet UITextField *memberNameField;
 @property (nonatomic,strong)Group *group;

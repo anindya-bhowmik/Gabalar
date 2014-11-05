@@ -34,7 +34,7 @@
     // Do any additional setup after loading the view.
     currentUser = [[Utility getInstance]getCurrentUser];
     self.parseClassName = kGroup;
-    self.pullToRefreshEnabled  = NO;
+    self.pullToRefreshEnabled  = YES;
     groupID = [[NSMutableArray alloc]init];
     self.navigationController.navigationBar.tintColor = [UIColor darkGrayColor];
    
@@ -50,8 +50,8 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    if(!self.isLoading)
-        [self loadObjects];
+//    if(!self.isLoading)
+//        [self loadObjects];
 }
 
 
@@ -132,7 +132,7 @@
     cell.name.text = group[@"groupName"];
     
     
-   PFFile *thumbnail = group[@"groupPic"];
+   PFFile *thumbnail = group[@"groupPicThumb"];
     cell.groupPic.file = thumbnail;
      if(![cell.groupPic.file isDataAvailable])
        [cell.groupPic loadInBackground];

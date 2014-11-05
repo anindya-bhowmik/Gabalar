@@ -402,7 +402,7 @@ if you forget it!!</string>
                             <rect key="frame" x="0.0" y="247" width="320" height="153"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jR-5j-cfV">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="304" translatesAutoresizingMaskIntoConstraints="NO" id="6jR-5j-cfV">
                                     <rect key="frame" x="8" y="47" width="304" height="93"/>
                                     <string key="text">'If you choose to make your new group a public group, it will be listed under 'Public Groups' and visible for all members of the Gabalar community to see. If you choose not to make your new group a public group, it will be listed only on your own Home page and only members that you invite will be able to see it.</string>
                                     <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="11"/>
@@ -591,11 +591,9 @@ if you forget it!!</string>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qoX-iA-1Ta" customClass="PFImageView">
-                                            <rect key="frame" x="8" y="7" width="80" height="80"/>
-                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qoX-iA-1Ta" customClass="PFImageView"/>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvR-4D-jtn" userLabel="Label - DateLabel">
-                                            <rect key="frame" x="98" y="27" width="217" height="16"/>
+                                            <rect key="frame" x="98" y="28" width="217" height="16"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -605,9 +603,7 @@ if you forget it!!</string>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUr-mS-IK8" customClass="PFImageView">
-                                            <rect key="frame" x="32" y="153" width="240" height="128"/>
-                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUr-mS-IK8" customClass="PFImageView"/>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
@@ -615,7 +611,7 @@ if you forget it!!</string>
                                     <outlet property="feedThumbImage" destination="vUr-mS-IK8" id="hFE-AX-Spk"/>
                                     <outlet property="senderImageView" destination="qoX-iA-1Ta" id="zra-Je-v5Z"/>
                                     <outlet property="senderNameLabel" destination="nuE-y5-0gu" id="Avu-cm-GeP"/>
-                                    <outlet property="timeLabel" destination="UvR-4D-jtn" id="4rH-cS-4VK"/>
+                                    <outlet property="timeLabel" destination="UvR-4D-jtn" id="d6g-Zh-6LW"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -623,7 +619,7 @@ if you forget it!!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="81J-no-ukZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2520" y="-2053"/>
+            <point key="canvasLocation" x="2520" y="-2054"/>
         </scene>
         <!--Group Setting View Controller-->
         <scene sceneID="vnO-hm-9tR">
@@ -637,7 +633,7 @@ if you forget it!!</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VGM-Ga-I4O">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VGM-Ga-I4O">
                                 <rect key="frame" x="0.0" y="64" width="320" height="132"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqV-Iq-ZgW">
@@ -798,34 +794,57 @@ if you forget it!!</string>
         <scene sceneID="OOa-oP-iKV">
             <objects>
                 <viewController storyboardIdentifier="AddMember" id="C49-hs-tu0" customClass="AddMemberViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="L3W-9u-Kgt"/>
-                        <viewControllerLayoutGuide type="bottom" id="MIT-ZA-OFq"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fvj-gx-F5A">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="81" sectionHeaderHeight="22" sectionFooterHeight="22" id="AmN-bW-ySP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n1D-fB-eck">
-                                <rect key="frame" x="0.0" y="64" width="320" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsCancelButton="YES" id="dql-Pg-5mf">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="81" id="SFK-3k-INB" customClass="InvitationTableViewCell">
+                                <rect key="frame" x="0.0" y="66" width="320" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SFK-3k-INB" id="jTM-qW-pay">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ors-7P-6fM" customClass="PFImageView">
+                                            <rect key="frame" x="14" y="15" width="50" height="50"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fej-ms-PXB">
+                                            <rect key="frame" x="72" y="15" width="182" height="50"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egK-ZQ-85O">
+                                            <rect key="frame" x="267" y="25" width="22" height="22"/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="delegate" destination="C49-hs-tu0" id="1fl-I3-Qba"/>
+                                    <outlet property="sendInvitationBtn" destination="egK-ZQ-85O" id="2nf-MV-c5l"/>
+                                    <outlet property="userName" destination="fej-ms-PXB" id="8T1-q2-ptO"/>
+                                    <outlet property="userPic" destination="Ors-7P-6fM" id="QRn-EA-L3n"/>
                                 </connections>
-                            </searchBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
                     <connections>
                         <outlet property="searchDisplayController" destination="pqO-Hf-tOU" id="Dez-4a-irM"/>
+                        <outlet property="searchUser" destination="dql-Pg-5mf" id="WBZ-g5-iXF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpR-nO-xJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <searchDisplayController id="pqO-Hf-tOU">
                     <connections>
                         <outlet property="delegate" destination="C49-hs-tu0" id="Y1C-Vq-2pS"/>
-                        <outlet property="searchBar" destination="n1D-fB-eck" id="9OZ-Mw-9Va"/>
                         <outlet property="searchContentsController" destination="C49-hs-tu0" id="5bq-09-h9Q"/>
                         <outlet property="searchResultsDataSource" destination="C49-hs-tu0" id="KAv-UE-iLy"/>
                         <outlet property="searchResultsDelegate" destination="C49-hs-tu0" id="Fad-y7-NNF"/>

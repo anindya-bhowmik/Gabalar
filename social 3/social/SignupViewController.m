@@ -11,6 +11,7 @@
 #import "User.h"
 #import "AppDelegate.h"
 #import "Utility.h"
+#import "UIImage+Resize.h"
 @interface SignupViewController ()
 
 @end
@@ -41,13 +42,13 @@
                     newUser[@"city"] = cityTextField.text;
                     newUser[@"user_id"] = [NSNumber numberWithInt:number+1];
                     newUser.email = emailTextField.text;
-                 //   newUser[@"emailVerified"] = [NSNumber numberWithBool:FALSE];
-//                    PFObject *anotherPlayer = [PFObject objectWithClassName:@"_User"];//1;
-//                    [anotherPlayer setObject:userNameTextField.text forKey:@"username"];
-//                    [anotherPlayer setObject:passwordTextField.text forKey:@"password"];
-//                    [anotherPlayer setObject:cityTextField.text forKey:@"city"];
-//                    [anotherPlayer setValue:[NSNumber numberWithInt:number+1] forKey:@"user_id"];
-//                    [anotherPlayer saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+                    newUser[@"userNameLower"] = [userNameTextField.text lowercaseString];
+                    if([imageData length]<=0){
+                        UIImage *image = [UIImage imageNamed:@"default_pro"];
+                        imageData = UIImageJPEGRepresentation(image, 0);
+                    }
+                    PFFile *thumbImageFile = [PFFile fileWithName:@"propic" data:imageData];
+                    [newUser setObject:thumbImageFile	 forKey:@"userPic"];
                     [newUser signUpInBackgroundWithBlock:^(BOOL succeeded,NSError *error){
                         if (succeeded){
 //                            NSLog(@"Object Uploaded!");
@@ -141,6 +142,7 @@
 
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info{
     UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
+    image = [image thumbnailImage:50 transparentBorder:0 cornerRadius:0 interpolationQuality:kCGInterpolationMedium];
     imageData = UIImageJPEGRepresentation(image, 0.05f);
     [picker dismissViewControllerAnimated:YES completion:nil];
 }

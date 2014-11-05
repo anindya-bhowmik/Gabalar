@@ -34,6 +34,9 @@
         self.feedThumbImage = [[PFImageView alloc]init];
         [self.contentView addSubview:self.feedThumbImage];
         
+        self.timeLabel = [[UILabel alloc]initWithFrame:CGRectMake(98, 27, 217, 16)];
+        [self.timeLabel setFont:[UIFont systemFontOfSize:10.0f]];
+        [self.contentView addSubview:self.timeLabel];
     
     }
     return self;

@@ -97,7 +97,7 @@
                     //[newGroup setObject:_groupDescriptionTextView.text forKey:@"groupDescription"];
                     [newGroup setObject:[NSNumber numberWithBool:isPublic] forKey:@"isPublic"];
                     if([imageData length]<=0){
-                        UIImage *image = [UIImage imageNamed:@"default"];
+                        UIImage *image = [UIImage imageNamed:@"default_grp"];
                         imageData = UIImageJPEGRepresentation(image, 0.05f);
                     }
                     PFFile *imageFile = [PFFile fileWithName:@"Image.jpg" data:imageData];

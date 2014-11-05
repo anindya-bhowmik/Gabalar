@@ -42,6 +42,9 @@
 		073976F9195801A400B2B7F8 /* ButtonMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 073976F8195801A400B2B7F8 /* ButtonMenu.png */; };
 		073976FF1958146000B2B7F8 /* CreateNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073976FE1958146000B2B7F8 /* CreateNetworkViewController.m */; };
 		074526D7197AE12A00B3BDEF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074526D6197AE12A00B3BDEF /* BaseViewController.m */; };
+		075830291A0A93FF004C7D88 /* send@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075830281A0A93FF004C7D88 /* send@2x.png */; };
+		0758302C1A0AB026004C7D88 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758302B1A0AB026004C7D88 /* NSDate+TimeAgo.m */; };
+		0758302E1A0AB1C8004C7D88 /* NSDateTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0758302D1A0AB1C8004C7D88 /* NSDateTimeAgo.bundle */; };
 		0758A9EC19583A3A007DB5A7 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0758A9EA19583A3A007DB5A7 /* checked.png */; };
 		0758A9ED19583A3A007DB5A7 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0758A9EB19583A3A007DB5A7 /* unchecked.png */; };
 		0758A9F019583A97007DB5A7 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758A9EF19583A97007DB5A7 /* RadioButton.m */; };
@@ -53,7 +56,7 @@
 		079E06B7197EDFDE0072A35B /* AddMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079E06B6197EDFDE0072A35B /* AddMemberViewController.m */; };
 		07A0139219C5EE2C0005E67F /* pi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A0139019C5EE2C0005E67F /* pi@2x.png */; };
 		07A0139519C5EE730005E67F /* vi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A0139419C5EE730005E67F /* vi@2x.png */; };
-		07A0139719C5FC0D0005E67F /* Defailt_pro.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A0139619C5FC0D0005E67F /* Defailt_pro.png */; };
+		07A0139719C5FC0D0005E67F /* default_pro.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A0139619C5FC0D0005E67F /* default_pro.png */; };
 		07A0748B197045D20079C0E4 /* ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A0748A197045D20079C0E4 /* ActivityIndicator.m */; };
 		07A788A219782E370087EFE2 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A788A119782E370087EFE2 /* MoreViewController.m */; };
 		07A788A819782EA00087EFE2 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A788A519782EA00087EFE2 /* Group.m */; };
@@ -72,11 +75,13 @@
 		07C78B5B197BCEF000EFE4E8 /* GroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C78B5A197BCEF000EFE4E8 /* GroupDetailViewController.m */; };
 		763AFADA19E5BB3A006D0FA5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763AFAD919E5BB3A006D0FA5 /* Parse.framework */; };
 		763AFADB19E5BBCD006D0FA5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763AFAD919E5BB3A006D0FA5 /* Parse.framework */; };
+		CE13F0DC1A09F53000A33175 /* InvitationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE13F0DB1A09F53000A33175 /* InvitationTableViewCell.m */; };
 		CE38A0021994E82E00594D65 /* default_grp.png in Resources */ = {isa = PBXBuildFile; fileRef = CE38A0011994E82E00594D65 /* default_grp.png */; };
 		CE829B87197F769A004AEB0A /* InvitationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE829B86197F769A004AEB0A /* InvitationViewController.m */; };
 		CE829B8A197FC5E3004AEB0A /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE829B89197FC5E3004AEB0A /* PostViewController.m */; };
 		CEB7FBEC19768CB80011A190 /* GroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7FBEA19768CB80011A190 /* GroupViewCell.m */; };
 		CEB7FBED19768CB80011A190 /* GroupViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB7FBEB19768CB80011A190 /* GroupViewCell.xib */; };
+		CECA92C71A0A4745008BE5A6 /* attach@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CECA92C61A0A4745008BE5A6 /* attach@2x.png */; };
 		D7656EC219A0C00C00FE4B6C /* nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D7656EC119A0C00C00FE4B6C /* nav_bg.png */; };
 		D7656EC519A0FAD400FE4B6C /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = D7656EC319A0FAD400FE4B6C /* signup.png */; };
 		D7656EC619A0FAD400FE4B6C /* signin.png in Resources */ = {isa = PBXBuildFile; fileRef = D7656EC419A0FAD400FE4B6C /* signin.png */; };
@@ -149,6 +154,10 @@
 		073976FE1958146000B2B7F8 /* CreateNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNetworkViewController.m; sourceTree = "<group>"; };
 		074526D5197AE12A00B3BDEF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		074526D6197AE12A00B3BDEF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		075830281A0A93FF004C7D88 /* send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send@2x.png"; sourceTree = "<group>"; };
+		0758302A1A0AB026004C7D88 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		0758302B1A0AB026004C7D88 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		0758302D1A0AB1C8004C7D88 /* NSDateTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NSDateTimeAgo.bundle; sourceTree = "<group>"; };
 		0758A9EA19583A3A007DB5A7 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
 		0758A9EB19583A3A007DB5A7 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
 		0758A9EE19583A97007DB5A7 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
@@ -168,7 +177,7 @@
 		079E06B6197EDFDE0072A35B /* AddMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMemberViewController.m; sourceTree = "<group>"; };
 		07A0139019C5EE2C0005E67F /* pi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pi@2x.png"; sourceTree = "<group>"; };
 		07A0139419C5EE730005E67F /* vi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vi@2x.png"; sourceTree = "<group>"; };
-		07A0139619C5FC0D0005E67F /* Defailt_pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defailt_pro.png; sourceTree = "<group>"; };
+		07A0139619C5FC0D0005E67F /* default_pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_pro.png; sourceTree = "<group>"; };
 		07A07489197045D20079C0E4 /* ActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityIndicator.h; path = social/ActivityIndicator.h; sourceTree = SOURCE_ROOT; };
 		07A0748A197045D20079C0E4 /* ActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityIndicator.m; path = social/ActivityIndicator.m; sourceTree = SOURCE_ROOT; };
 		07A788A019782E370087EFE2 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
@@ -199,6 +208,8 @@
 		07C78B59197BCEF000EFE4E8 /* GroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupDetailViewController.h; sourceTree = "<group>"; };
 		07C78B5A197BCEF000EFE4E8 /* GroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupDetailViewController.m; sourceTree = "<group>"; };
 		763AFAD919E5BB3A006D0FA5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CE13F0DA1A09F53000A33175 /* InvitationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvitationTableViewCell.h; sourceTree = "<group>"; };
+		CE13F0DB1A09F53000A33175 /* InvitationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvitationTableViewCell.m; sourceTree = "<group>"; };
 		CE38A0011994E82E00594D65 /* default_grp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_grp.png; sourceTree = "<group>"; };
 		CE829B85197F769A004AEB0A /* InvitationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvitationViewController.h; sourceTree = "<group>"; };
 		CE829B86197F769A004AEB0A /* InvitationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvitationViewController.m; sourceTree = "<group>"; };
@@ -207,6 +218,7 @@
 		CEB7FBE919768CB80011A190 /* GroupViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupViewCell.h; sourceTree = "<group>"; };
 		CEB7FBEA19768CB80011A190 /* GroupViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupViewCell.m; sourceTree = "<group>"; };
 		CEB7FBEB19768CB80011A190 /* GroupViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupViewCell.xib; sourceTree = "<group>"; };
+		CECA92C61A0A4745008BE5A6 /* attach@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "attach@2x.png"; path = "social/images/attach@2x.png"; sourceTree = SOURCE_ROOT; };
 		D7656EC119A0C00C00FE4B6C /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
 		D7656EC319A0FAD400FE4B6C /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup.png; sourceTree = "<group>"; };
 		D7656EC419A0FAD400FE4B6C /* signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signin.png; sourceTree = "<group>"; };
@@ -311,6 +323,9 @@
 		073976931954C76C00B2B7F8 /* social */ = {
 			isa = PBXGroup;
 			children = (
+				0758302D1A0AB1C8004C7D88 /* NSDateTimeAgo.bundle */,
+				0758302A1A0AB026004C7D88 /* NSDate+TimeAgo.h */,
+				0758302B1A0AB026004C7D88 /* NSDate+TimeAgo.m */,
 				079468C51A02A9E0001051F7 /* UIImage-categories */,
 				079E06B5197EDFDE0072A35B /* AddMemberViewController.h */,
 				079E06B6197EDFDE0072A35B /* AddMemberViewController.m */,
@@ -372,6 +387,8 @@
 				07AB56A219C4CA4D0081B999 /* GroupCell.h */,
 				07AB56A319C4CA4D0081B999 /* GroupCell.m */,
 				763AFAD919E5BB3A006D0FA5 /* Parse.framework */,
+				CE13F0DA1A09F53000A33175 /* InvitationTableViewCell.h */,
+				CE13F0DB1A09F53000A33175 /* InvitationTableViewCell.m */,
 			);
 			path = social;
 			sourceTree = "<group>";
@@ -414,7 +431,9 @@
 		073976F7195801A400B2B7F8 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				07A0139619C5FC0D0005E67F /* Defailt_pro.png */,
+				075830281A0A93FF004C7D88 /* send@2x.png */,
+				CECA92C61A0A4745008BE5A6 /* attach@2x.png */,
+				07A0139619C5FC0D0005E67F /* default_pro.png */,
 				07A0139419C5EE730005E67F /* vi@2x.png */,
 				07A0139019C5EE2C0005E67F /* pi@2x.png */,
 				07AB569A19C41E2D0081B999 /* play.png */,
@@ -541,6 +560,7 @@
 				D7656EC219A0C00C00FE4B6C /* nav_bg.png in Resources */,
 				D7656EC619A0FAD400FE4B6C /* signin.png in Resources */,
 				D765701519A67C8B00FE4B6C /* newhome.png in Resources */,
+				075830291A0A93FF004C7D88 /* send@2x.png in Resources */,
 				0758A9EC19583A3A007DB5A7 /* checked.png in Resources */,
 				CEB7FBED19768CB80011A190 /* GroupViewCell.xib in Resources */,
 				073976A61954C76C00B2B7F8 /* Images.xcassets in Resources */,
@@ -552,7 +572,9 @@
 				073976F9195801A400B2B7F8 /* ButtonMenu.png in Resources */,
 				0758A9ED19583A3A007DB5A7 /* unchecked.png in Resources */,
 				07A0139519C5EE730005E67F /* vi@2x.png in Resources */,
-				07A0139719C5FC0D0005E67F /* Defailt_pro.png in Resources */,
+				07A0139719C5FC0D0005E67F /* default_pro.png in Resources */,
+				CECA92C71A0A4745008BE5A6 /* attach@2x.png in Resources */,
+				0758302E1A0AB1C8004C7D88 /* NSDateTimeAgo.bundle in Resources */,
 				073976A11954C76C00B2B7F8 /* Main.storyboard in Resources */,
 				D7656ED319A13F9100FE4B6C /* invitemember.png in Resources */,
 				D7656ED519A13F9100FE4B6C /* join.png in Resources */,
@@ -591,6 +613,7 @@
 				CE829B8A197FC5E3004AEB0A /* PostViewController.m in Sources */,
 				07C78B58197BAB4900EFE4E8 /* CreateGroupViewController.m in Sources */,
 				079468CC1A02A9E0001051F7 /* UIImage+Alpha.m in Sources */,
+				0758302C1A0AB026004C7D88 /* NSDate+TimeAgo.m in Sources */,
 				07A788A219782E370087EFE2 /* MoreViewController.m in Sources */,
 				079E06B7197EDFDE0072A35B /* AddMemberViewController.m in Sources */,
 				073976E51957F18200B2B7F8 /* MainViewController.m in Sources */,
@@ -612,6 +635,7 @@
 				07AA823E1995EA3600A3EBD1 /* GroupImageCell.m in Sources */,
 				07A0748B197045D20079C0E4 /* ActivityIndicator.m in Sources */,
 				073976E81957F31D00B2B7F8 /* HomeViewController.m in Sources */,
+				CE13F0DC1A09F53000A33175 /* InvitationTableViewCell.m in Sources */,
 				079E06B4197ED6670072A35B /* GroupMemberViewController.m in Sources */,
 				0767DC1E19743617006527EA /* Utility.m in Sources */,
 			);
